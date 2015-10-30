@@ -76,6 +76,8 @@
     <Content Include="SPA\app.module.js" />
     <Content Include="Global.asax" />
     <Content Include="SPA\index.html" />
+    <Content Include="SPA\vendor\angular.js" />
+    <Content Include="SPA\vendor\bootstrap.min.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="App_Data\.gitignore" />
+    <Content Include="Controllers\.gitignore" />
+    <Content Include="Models\.gitignore" />
+    <Content Include="Services\.gitignore" />
+    <Content Include="SPA\controllers\.gitignore" />
+    <Content Include="SPA\directives\.gitignore" />
+    <Content Include="SPA\services\.gitignore" />
+    <Content Include="Utilities\.gitignore" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -95,15 +105,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
-    <Folder Include="Services\" />
-    <Folder Include="SPA\controllers\" />
-    <Folder Include="SPA\directives\" />
-    <Folder Include="SPA\services\" />
     <Folder Include="SPA\views\" />
-    <Folder Include="Utilities\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
