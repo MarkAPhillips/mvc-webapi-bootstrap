@@ -75,6 +75,7 @@
     <Content Include="SPA\app.constants.js" />
     <Content Include="SPA\app.module.js" />
     <Content Include="Global.asax" />
+    <Content Include="SPA\css\site.css" />
     <Content Include="SPA\index.html" />
     <Content Include="SPA\vendor\angular.js" />
     <Content Include="SPA\vendor\bootstrap.min.css" />

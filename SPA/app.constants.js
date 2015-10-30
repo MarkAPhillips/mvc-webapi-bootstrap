@@ -2,5 +2,5 @@
     "use strict";
 
     angular.module("App")
-        .constant("Api", { "uri": "" });
+        .constant("Api", { "uri": "/api" });
 })()
